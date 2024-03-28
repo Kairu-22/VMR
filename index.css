@@ -1,0 +1,25 @@
+.intro-text { display: inline-block}
+
+.text {
+    margin-left: 350px;
+    color: aliceblue;
+    text-align: right;
+    font-size: 5em;
+    letter-spacing: l0px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation :
+            typing 2s steps(30),
+            cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+50% { border-color: transparent}}
+/* typing effect */
+@keyframes typing {
+from  { width: 0 }
+transparent}

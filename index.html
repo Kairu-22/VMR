@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Landing page</title>
 </head>
 <body>
-    <div class="wrapper">
         <nav class="nav">
             <div class="nav-logo">
                 <p>VMR</p>
@@ -17,19 +17,31 @@
             <div class="nav-menu" id="navMenu">
                 <ul>
                     <li><a href="Index.html" class="link active">Home</a></li>
-                    <li><a href="#" class="link">Blog</a></li>
+                    <li><a href="blog.html" class="link">Blog</a></li>
                     <li><a href="#" class="link">Services</a></li>
                     <li><a href="#" class="link">About</a></li>
                 </ul>
             </div>
             <div class="nav-button">
-                <button class="btn white-btn" id="loginBtn" onclick="login()" >Sign In</button>
+                <a href="login.html"><button class="btn white-btn" id="loginBtn" >Sign In</button></a>
             </div>
             <div class="nav-menu-btn">
                 <i class="bx bx-menu" onclick="myMenuFunction()"></i>
             </div>
         </nav>
-    </div>
+        <div class="intro panel">
+            <div style=" margin-left: 0; ">            
+                <dotlottie-player src="https://lottie.host/3a7b4359-1040-493b-bca6-b3d40379efae/67eO3Av2Fm.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+            </div>
+            
+            <div class="intro-text">
+                <p class="text">THE<br> FUTURE<br> TECHNOLOGY<br> WELCOMES YOU!</p>
+                </div>
+            
+        </div>
+
+
+   
 
 
         <script>
@@ -43,6 +55,13 @@
                  i.className = "nav-menu";
              }
             }
+
+            function login(){
+                
+            }
           
          </script>
+         <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    </body>
+</html>
     
