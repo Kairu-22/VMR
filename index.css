@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;
 }
 
@@ -71,7 +71,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(1.jpg);
+    background-image: url(images/1.jpg);
     /* background-color: black; */
     background-position: center;
     background-size: cover;
@@ -114,7 +114,8 @@ body{
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
-  }/*# sourceMappingURL=index.css.map */
+  }
+  /*# sourceMappingURL=index.css.map */
 
 
 /* .intro-text { display: inline-block}
@@ -138,14 +139,14 @@ body{
 
 
 /* cursor blinking */
-@keyframes cursor {
+/* @keyframes cursor {
 50% { border-color: transparent}}
 
 
-/* typing effect */
+ typing effect 
 @keyframes typing {
 from  { width: 0 }
-transparent} */
+transparent}  */
 
 .text{
     width: 90%;
